@@ -1,6 +1,7 @@
 package com.example.demo.entity;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 
 public class LogPoint {
@@ -18,6 +19,11 @@ public class LogPoint {
     @javax.persistence.Id
     public String getId() {
         return id;
+    }
+
+    public void test(){
+        HashSet<Integer> hashSet = new HashSet<Integer>();
+        hashSet.add(1);
     }
 
 }
